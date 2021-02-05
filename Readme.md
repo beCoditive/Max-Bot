@@ -15,6 +15,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 ## Requirements
 - Node.js v12+
 
+## Features
 **Fun Features** :
 - [x] 8ball Command
 - [x] Hack Command
