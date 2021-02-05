@@ -9,7 +9,7 @@ This bot was orginally designed specifically for beCoditive Discord Server
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
 
 ## Requirements
-- Node.js v12+
+Node.js v12+
 
 ##Versions
 - v1.0.0 - https://github.com/beCoditive/Max-Bot/tree/v1.0.0
