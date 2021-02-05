@@ -2,7 +2,7 @@
 <a href="https://becoditive.ml"><img align="right" src="https://cdn.discordapp.com/attachments/803548530932318209/807153318945619979/8d2d1c5e0ee9e5141f1fc51567dba572.jpg" width=27%></a>
 
 
-[![Support Server Invite](https://img.shields.io/discord/208023865127862272.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
+[![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
 
 Please do not distribute this code or copy it without my permission.
 
