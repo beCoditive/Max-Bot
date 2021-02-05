@@ -1,12 +1,11 @@
 {
-  "name": "becoditive",
+  "name": "max-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./dist/index.js"
+    "start": "nodemon ./index.js"
   },
-  "author": "",
+  "author": "beCoditive",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.14.12",
