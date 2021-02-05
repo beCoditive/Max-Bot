@@ -42,9 +42,10 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Sends a nice Welcome image when a user joins.
 - [x] Block users from sending discord invite link.
 - [x] Sends a nice programming quotes after every 6 hours.
+- [x] Gives a default role when a member joins.
 
 ### Config
-![alt text](https://cdn.discordapp.com/attachments/802855640632524803/807137462409363456/config.js_-_Max_Bot_v1_Final_Version_-_Visual_Studio_Code_05-02-2021_11_43_36.png)
+![alt text](https://cdn.discordapp.com/attachments/802430531463020554/807143947637096459/config.js_-_Max_Bot_v1_Final_Version_-_Visual_Studio_Code_05-02-2021_12_31_07.png)
   ⚠ Warning - Do not Change the DB name
 - token : Your_Token
 - prefix : Your_Prefered_Prefix
@@ -53,6 +54,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - serverLink : Your_Server_Invite_Link
 - welcomeImage : Your_Welocme_Background_Image_Link
 - owner : Your_ID
+- defaultRole : Your_Server_Default_Role
 
 ### Setup
 - Make sure you're running the requirements mentioned above
