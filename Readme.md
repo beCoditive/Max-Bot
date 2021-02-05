@@ -44,7 +44,15 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Sends a nice programming quotes after every 6 hours.
 
 ### Config
-![alt text](https://media.discordapp.net/attachments/802855640632524803/807130812892839986/config.jpg?width=955&height=258)
+![alt text](https://cdn.discordapp.com/attachments/802855640632524803/807137462409363456/config.js_-_Max_Bot_v1_Final_Version_-_Visual_Studio_Code_05-02-2021_11_43_36.png)
+  ⚠ Warning - Do not Change the DB name
+- [x] token : Your_Token
+- [x] prefix : Your_Prefered_Prefix
+- [x] serverName : Your_Server_Name
+- [x] qutoesChannel : Your_Channel_Where_You_Want_To_Post_Quotes
+- [x] serverLink : Your_Server_Invite_Link
+- [x] welcomeImage : Your_Welocme_Background_Image_Link
+- [x] owner : Your_ID
 
 ### Setup
 - Make sure you're running the requirements mentioned above
