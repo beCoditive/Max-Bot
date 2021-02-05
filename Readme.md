@@ -1,4 +1,8 @@
 # Max Bot
+<a href="https://becoditive.ml"><img align="right" src="https://cdn.discordapp.com/attachments/802855640632524803/807151463401783306/Untitled-1.png"></a>
+
+[![Support Server Invite](https://img.shields.io/discord/208023865127862272.svg?color=7289da&label=Discord4J&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
+
 Please do not distribute this code or copy it without my permission.
 
 This bot was orginally designed specifically for beCoditive Discord Server 
