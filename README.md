@@ -2,8 +2,6 @@
 
 Max Bot is a discord bot mde with nodejs and discordjs.
 
-Please do not distribute this code without my permission.
-
 This bot was orginally designed specifically for beCoditive Discord Server 
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
