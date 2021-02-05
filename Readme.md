@@ -43,6 +43,9 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Block users from sending discord invite link.
 - [x] Sends a nice programming quotes after every 6 hours.
 
+### Config
+![alt text](https://media.discordapp.net/attachments/802855640632524803/807130812892839986/config.jpg?width=955&height=258)
+
 ### Setup
 - Make sure you're running the requirements mentioned above
 ```sh
