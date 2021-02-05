@@ -77,7 +77,7 @@ $ npm install
 ```
 - Run the bot
 ```sh
-$node .
+$ node .
 ```
 
 **This project was also a colaboration between** :
