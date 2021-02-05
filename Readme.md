@@ -4,8 +4,6 @@
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
 
-Please do not distribute this code or copy it without my permission.
-
 This bot was orginally designed specifically for beCoditive Discord Server 
 
 (**beCoditive**) : https://discord.gg/5JtJFEcZeP
