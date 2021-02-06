@@ -6,7 +6,7 @@
     "start": "nodemon ./index.js"
   },
   "author": "beCoditive",
-  "license": "ISC",
+  "license": "LGPL",
   "dependencies": {
     "@types/node": "^14.14.12",
     "axios": "^0.21.1",
