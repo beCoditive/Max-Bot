@@ -15,7 +15,7 @@ class TriviaCommand extends discord_akairo_1.Command {
                     'epicgamerate'
                 ]
             },
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message , text) {

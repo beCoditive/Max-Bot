@@ -16,7 +16,7 @@ class CheckWarnsCommand extends discord_akairo_1.Command {
                     'checkwarns member'
                 ]
             },
-            ratelimit: 3,
+            ratelimit: 10,
             userPermissions: ['MANAGE_MESSAGES'],
             args: [
                 {

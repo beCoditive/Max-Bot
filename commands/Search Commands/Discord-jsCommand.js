@@ -18,7 +18,7 @@ class DocsCommand extends discord_akairo_1.Command {
                     'botJs GuildMember#fetch()'
                 ]
             },
-            ratelimit: 3,
+            ratelimit: 10,
             args: [
                 {
                     id: 'search',

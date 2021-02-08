@@ -24,7 +24,7 @@ class ClearCommand extends discord_akairo_1.Command {
                     }
                 }
             ],
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message, { messages }) {

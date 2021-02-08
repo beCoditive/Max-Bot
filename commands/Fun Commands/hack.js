@@ -15,7 +15,7 @@ class hackCommand extends discord_akairo_1.Command {
                     'hack @user'
                 ]
             },
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message , args) {

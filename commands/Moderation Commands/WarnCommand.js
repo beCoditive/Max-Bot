@@ -15,7 +15,7 @@ class WarnCommand extends discord_akairo_1.Command {
                     'warn @Member#0001'
                 ]
             },
-            ratelimit: 3,
+            ratelimit: 10,
             userPermissions: ['MANAGE_MESSAGES'],
             args: [
                 {

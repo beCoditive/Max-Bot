@@ -17,7 +17,7 @@ class HelpCommand extends discord_akairo_1.Command {
                     'help ping'
                 ]
             },
-            ratelimit: 3,
+            ratelimit: 10,
             args: [
                 {
                     id: 'command',

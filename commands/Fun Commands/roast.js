@@ -16,7 +16,7 @@ class RoastCommand extends discord_akairo_1.Command {
                     'roast'
                 ]
             },
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message , args) {

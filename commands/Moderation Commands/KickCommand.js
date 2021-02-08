@@ -30,7 +30,7 @@ class KickCommand extends discord_akairo_1.Command {
                     default: 'No reason provided'
                 }
             ],
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message, { member, reason }) {

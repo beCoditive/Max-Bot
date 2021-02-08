@@ -29,7 +29,7 @@ class FilterWordsCommand extends discord_akairo_1.Command {
                     match: 'rest',
                 }
             ],
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message, { action, fwArgs }) {

@@ -15,7 +15,7 @@ class MemeCommand extends discord_akairo_1.Command {
                     'meme'
                 ]
             },
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message , args) {

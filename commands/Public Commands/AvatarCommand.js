@@ -16,7 +16,7 @@ class AvatarCommand extends discord_akairo_1.Command {
                     'avatar member'
                 ]
             },
-            ratelimit: 3,
+            ratelimit: 10,
             args: [
                 {
                     id: 'member',

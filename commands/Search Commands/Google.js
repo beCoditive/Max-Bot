@@ -14,7 +14,7 @@ class PingCommand extends discord_akairo_1.Command {
                     'google food'
                 ]
             },
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     async exec(message , args) {

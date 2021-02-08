@@ -13,7 +13,7 @@ class PingCommand extends discord_akairo_1.Command {
                     'highlight I am max bot.'
                 ]
             },
-            ratelimit: 3
+            ratelimit: 10
         });
     }
     exec(message , args) {
