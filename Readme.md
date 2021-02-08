@@ -1,4 +1,4 @@
-# Max Bot v1.2.0
+# Max Bot v1.3.7
 <a href="https://becoditive.ml"><img align="right" src="https://cdn.discordapp.com/attachments/803548530932318209/807153318945619979/8d2d1c5e0ee9e5141f1fc51567dba572.jpg" width=27%></a>
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
@@ -11,11 +11,11 @@ This bot uses Javascript (JS) with the node module Discord.js
 - Node.js v12+
 
 ## What is New?
-- Search Command Directory
-- BotJs Command - It allows to check docs of the discord.js
-- searchYT Command - It allows to search videos from youtube.
-- ytChannel Command - It allows to search channels from youtube.
-- trendingGit Command - It Sends you a random trending Github repository.
+- Info Command
+- gitRepo Command - Gives the top Repository according to your search.
+- gitUser Command - Gives User according to your search.
+- epicgamerate Command
+- wiki Command - Searches wiki for your topic.
 
 # Features
 **Fun Features** :
@@ -30,6 +30,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Spoiler Command
 - [x] Rip Command
 - [x] UseLessWeb Command
+- [x] epicgamerate Command
 
 **Moderator Features** :
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel
@@ -48,6 +49,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Highlight Command - It highlights the text.
 - [x] Ping Command - To check the current ping of the bot.
 - [x] Covid Command - Check the Number of Cases of Covid-19
+- [x] Info Command
 
 **Search Features** :
 - [x] BotJs Command - It allows to check docs of the discord.js
@@ -55,6 +57,9 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] ytChannel Command - It allows to search channels from youtube.
 - [x] Google Command - Sends Image according to your needs in the server.
 - [x] trendingGit Command - It Sends you a random trending Github repository.
+- [x] gitRepo Command - Gives the top Repository according to your search.
+- [x] gitUser Command - Gives User according to your search.
+- [x] wiki Command - Searches wiki for your topic.
 
 **Other Features** :
 - [x] Sends a nice Welcome image when a user joins.
@@ -98,5 +103,4 @@ $ node .
 
 
 > Copyright © 2021 beCoditive
-
 
