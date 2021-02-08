@@ -11,9 +11,9 @@ class PingCommand extends discord_akairo_1.Command {
             category: 'Search Commands',
             description: {
                 content: 'Get Github Repositories.',
-                usage: 'gitRepo <Topic>',
+                usage: 'gitRepo <user/repo>',
                 examples: [
-                    'gitRepo food'
+                    'gitRepo beCoditive/Max-Bot'
                 ]
             },
             args: [

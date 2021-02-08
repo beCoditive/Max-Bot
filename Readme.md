@@ -1,4 +1,4 @@
-# Max Bot v1.5.0 Pre-Released
+# Max Bot v1.5.0
 <a href="https://becoditive.ml"><img align="right" src="https://cdn.discordapp.com/attachments/803548530932318209/807153318945619979/8d2d1c5e0ee9e5141f1fc51567dba572.jpg" width=27%></a>
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
@@ -11,10 +11,12 @@ This bot uses Javascript (JS) with the node module Discord.js
 - Node.js v12+
 
 ## What is New?
-- Info Command
-- gitRepo Command - Gives the top Repository according to your search.
-- gitUser Command - Gives User according to your search.
-- epicgamerate Command
+- Spank Command
+- Imagine Command
+- Pun Command
+- Facepalm Command
+- Wholesome Command
+- Gif Command
 
 # Features
 **Fun Features** :
