@@ -15,7 +15,6 @@ This bot uses Javascript (JS) with the node module Discord.js
 - gitRepo Command - Gives the top Repository according to your search.
 - gitUser Command - Gives User according to your search.
 - epicgamerate Command
-- wiki Command - Searches wiki for your topic.
 
 # Features
 **Fun Features** :
