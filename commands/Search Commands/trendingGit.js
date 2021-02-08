@@ -10,9 +10,9 @@ class PingCommand extends discord_akairo_1.Command {
             category: 'Search Commands',
             description: {
                 content: 'Get Trending Git Repositories.',
-                usage: 'trendingGit <Topic>',
+                usage: 'trendingGit',
                 examples: [
-                    'trendingGit food'
+                    'trendingGit'
                 ]
             },
             ratelimit: 3

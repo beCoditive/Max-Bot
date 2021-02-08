@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
-const axios_1 = __importDefault(require("axios"));
 const Discord = require('discord.js')
 const ytsr = require("ytsr");
 class DocsCommand extends discord_akairo_1.Command {
@@ -30,7 +29,7 @@ class DocsCommand extends discord_akairo_1.Command {
             ]
         });
     }
-    async  exec(message, { search }) {
+    async exec(message, { search }) {
        const query = search
        if(!search) return message.channel.send('Please specify something to search')
        message.channel.send('Finding Channel.....')
@@ -48,7 +47,7 @@ class DocsCommand extends discord_akairo_1.Command {
        .addField('Subscribers' , `${channels.subscribers}` ,  true)
        .addField('Total Video(s)' , `${channels.videos}` , true)
        .addField('Description' , `${channels.descriptionShort}` ,true)
-       
+
        message.channel.send(embed)
     }
 }

@@ -33,6 +33,7 @@ class DocsCommand extends discord_akairo_1.Command {
     async  exec(message, { search }) {
        const query = search
        if(!search) return message.channel.send('Please specify something to search')
+       message.channel.send('Finding Channel.....')
        const res = await ytsr(query).catch(e => {
            return message.channel.send('No results were found')
        })
