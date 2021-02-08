@@ -29,3 +29,4 @@ If you're unsure of whether a change is welcome, feel free to ask first in our [
 
 Finally, thanks again for contributing to beCoditive. When your changes are accepted, make sure to ask about the Contributor role in our [Discord server](https://discord.gg/5JtJFEcZeP).
 
+
