@@ -15,6 +15,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - prequel Command
 - chucknorris Command
 - Wiki Command
+- Code Refactored
 
 # Features
 **Fun Features** :
