@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.dbName = exports.owners = exports.prefix = exports.token = void 0;
-exports.token = 'ODA4NjEyNjY0Nzg2OTQ0MDAw.YCJFOg.fvpqpn5Ows70PFJ_udcYb81Qt8w';
-exports.prefix = '$';
-exports.version = 'v1.6.9';
-exports.defaultRole = '801322780833349643';
-exports.serverName = 'beCoditive'
-exports.quotesChannel = '804585106395889694'
-exports.serverLink = 'https://discord.gg/5JtJFEcZeP'
-exports.welcomeImage = 'https://media.discordapp.net/attachments/771230051336716319/801795688170127391/Untitled-1.png'
-exports.owners = ['760922441563373618'];
+exports.token = 'Your_Token';
+exports.prefix = 'Your_Prefered_Prefix';
+exports.defaultRole = 'Your_Server_Default_Role';
+exports.serverName = 'Your_Server_Name'
+exports.quotesChannel = 'Your_Channel_Where_You_Want_To_Post_Quotes'
+exports.serverLink = 'Your_Server_Invite_Link'
+exports.welcomeImage = 'Your_Welocme_Background_Image_Link'
+exports.owners = ['Your_ID'];
+exports.version = 'v1.7.6';
+exports.dbName = 'database';
