@@ -52,7 +52,6 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Delete Warn Command - It allows to delete warning of a user.
 - [x] Filter Words Command - It allows to Block some NSFW words in the server.
 - [x] Kick Command - Kicks a user 
-- [x] Poll Command - It allows the moderator to make a poll in Poll Channel
 
 **Public Features** :
 - [x] Avatar Command - It allows seeing the avatar of any user.
@@ -71,7 +70,6 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] gitRepo Command - Gives the top Repository according to your search.
 - [x] gitUser Command - Gives User according to your search.
 - [x] wiki Command - Searches wiki for your topic.
-- [x] Wiki Command
 
 **Other Features** :
 - [x] Sends a nice Welcome image when a user joins.
