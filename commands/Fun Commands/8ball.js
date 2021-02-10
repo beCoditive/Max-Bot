@@ -1,8 +1,11 @@
-    "use strict";
+"use strict";
+
 Object.defineProperty(exports, "__esModule", { value: true });
+
 const discord_akairo_1 = require("discord-akairo");
 const { MessageEmbed } = require("discord.js");
 const Discord = require('discord.js')
+
 class ballCommand extends discord_akairo_1.Command {
     constructor() {
         super('8ball', {
