@@ -1,0 +1,47 @@
+{
+    "filteredWords": [
+        "ass",
+        "fuck",
+        "MotherFucker",
+        "Chutiyapa",
+        "Chutiya ",
+        " Booshedica",
+        "chut",
+        "fucker",
+        "boobs",
+        " dick",
+        " asshole"
+    ],
+    "fwActions": [
+        {
+            "action": "Help",
+            "description": "Shows a list of all available actions.",
+            "usage": "fw help"
+        },
+        {
+            "action": "List",
+            "description": "Displays a list of all filtered words.",
+            "usage": "fw list"
+        },
+        {
+            "action": "Add",
+            "description": "Adds one or more filtered words.",
+            "usage": "fw add [word], <word>, <word>, ..."
+        },
+        {
+            "action": "Remove",
+            "description": "Removes one or more filtered words.",
+            "usage": "fw remove [word], <word>, <word>, ..."
+        },
+        {
+            "action": "Reset",
+            "description": "Deletes all filtered words.",
+            "usage": "fw reset"
+        },
+        {
+            "action": "Reload",
+            "description": "Deletes require cache.",
+            "usage": "fw reload"
+        }
+    ]
+}
