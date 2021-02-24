@@ -170,6 +170,8 @@ $ node .
 1. beCoditive Inc. (https://github.com/beCoditive)
 2. Shuriken (https://github.com/CyberShuri)
 
+**Contributors** :
+1. DevShaded (https://github.com/DevShaded)
 
 > Copyright © 2021 beCoditive
 
