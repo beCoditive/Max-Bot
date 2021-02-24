@@ -11,6 +11,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - Node.js v12+
 
 ## What is New?
+- Removed Use Less Packages
 - dank rate Command
 - howgay Command
 - lenny Command
