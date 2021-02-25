@@ -19,13 +19,21 @@ This bot uses Javascript (JS) with the node module Discord.js
 
 # Features
 **Fun Features**
+
 **Image Features**
+
 **Moderator Features**
+
 **Public Features**
+
 **Search Features**
+
 **Other Features**
+
 **Action Features**
+
 **Music Features**
+
 
 ### [Commands](./Commands.md)
 
