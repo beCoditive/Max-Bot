@@ -27,7 +27,7 @@ class ripCommand extends discord_akairo_1.Command {
         const canvas = Canvas.createCanvas(463 ,516);
         const ctx = canvas.getContext('2d')
       
-        const b = await Canvas.loadImage('./Images/goggles.png');
+        const b = await Canvas.loadImage('./Assets/Images/goggles.png');
         ctx.drawImage(b, 0, 0 ,canvas.width , canvas.height); 
 
         const avatar1 = await Canvas.loadImage('https://p.kindpng.com/picc/s/21-217710_white-fade-corner-png-corner-black-fade-png.png')

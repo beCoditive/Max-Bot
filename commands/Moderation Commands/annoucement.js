@@ -36,6 +36,9 @@ class AccounceCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message, {channel , reason}) {
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+
         if (!message.member.permissions.has('ADMINISTRATOR'))
         return message.channel.send('You need to have the `ADMINISTRATOR` permission to use this command.');
         let annoucementChannel = channel

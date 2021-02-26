@@ -2,7 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
-const DIG = require("discord-image-generation");
+
+const Dig = require("discord-memer")
 class ripCommand extends discord_akairo_1.Command {
     constructor() {
         super('delete', {
@@ -25,7 +26,7 @@ class ripCommand extends discord_akairo_1.Command {
         : message.author.displayAvatarURL({ format: 'png' ,  size: 2048 })
 
 
-        let img = await new DIG.Delete().getImage(memberLogo)
+        let img = await new Dig.Delete().getImage(memberLogo)
 
         let attach = new Discord.MessageAttachment(img, "delete.png");;
         

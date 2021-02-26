@@ -33,6 +33,9 @@ class FilterWordsCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message, { action, fwArgs }) {
+        
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+        
         const fwJSON = JSON.parse(fs_1.readFileSync("./data.json", "utf8"));
         const response = new discord_js_1.MessageEmbed()
             .setColor('RANDOM')

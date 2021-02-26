@@ -37,8 +37,12 @@ class WarnCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message, { member, reason }) {
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+
         if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
         
+
         if (member.roles.highest.position >= message.member.roles.highest.position)
             return message.channel.send('You do not have permission to warn this member.');
             const embed = await new discord.MessageEmbed()

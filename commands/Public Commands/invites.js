@@ -19,6 +19,9 @@ class HighlightCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message , args) {
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+
        let invites = await message.guild.fetchInvites();
 
         // Get array of invites made by message author user
