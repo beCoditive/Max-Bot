@@ -36,6 +36,9 @@ class KickCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message, { member, reason }) {
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+
         if (!message.member.permissions.has('KICK_MEMBERS'))
             return message.channel.send('You need to have the `Kick Members` permission to use this command.');
         if (member.roles.highest.position >= message.member.roles.highest.position && message.author.id !== message.guild.ownerID)

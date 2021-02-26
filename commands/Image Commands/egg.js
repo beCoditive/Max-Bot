@@ -23,7 +23,7 @@ class UlgyCommand extends discord_akairo_1.Command {
   const canvas = Canvas.createCanvas( 300 , 300);
   const ctx = canvas.getContext('2d')
 
-  const background = await Canvas.loadImage('./Images/egg.png')
+  const background = await Canvas.loadImage('./Assets/Images/egg.png')
   ctx.drawImage(background, 0, 0 ,canvas.width , canvas.height);
 
   ctx.strokeStyle = '#740';

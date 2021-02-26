@@ -35,7 +35,7 @@ class YoutubeCommand extends discord_akairo_1.Command {
   const canvas = Canvas.createCanvas(720 ,300);
   const ctx = canvas.getContext('2d')
 
-  const background = await Canvas.loadImage('./Images/yt.png')
+  const background = await Canvas.loadImage('./Assets/Images/yt.png')
   ctx.drawImage(background, 0, 0 ,canvas.width , canvas.height);
 
   ctx.strokeStyle = '#740';

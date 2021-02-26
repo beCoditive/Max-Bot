@@ -37,7 +37,13 @@ class WarnCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message, { member, reason }) {
-        if (member.roles.highest.position >= message.member.roles.highest.position && message.author.id !== message.guild.ownerID)
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+        
+
+        if (member.roles.highest.position >= message.member.roles.highest.position)
             return message.channel.send('You do not have permission to warn this member.');
             const embed = await new discord.MessageEmbed()
             .setColor('RANDOM')
@@ -45,8 +51,7 @@ class WarnCommand extends discord_akairo_1.Command {
             .setDescription(`Member Warned: ${member.user.tag}\n\n Warned By: <@${message.author.id}>\n\nReason: ${reason}\n\n----------------------------`)
             .setFooter('If this happens again some serious action could be took against you!')
             await member.send(embed)
-            const chan = this.client.channels.cache.find(c => c.id === `${config.logsChannel}`)
-            await chan.send(embed)
+    
         return message.util.send(`\n\nMember **${member.user.tag}** warned succesfully for => \`${reason}\``);
     }
 }

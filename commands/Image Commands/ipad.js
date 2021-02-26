@@ -36,7 +36,6 @@ class ripCommand extends discord_akairo_1.Command {
       
         const avatar = await Canvas.loadImage(memberLogo);
         ctx.rotate(-22 * Math.PI / 180);
-        ctx
         ctx.drawImage(avatar , 85 , 220, 120, 184);
         const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'welcome-image.png');
         message.channel.send(attachment)

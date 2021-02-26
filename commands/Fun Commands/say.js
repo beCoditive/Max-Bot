@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
-const fetch = require('node-fetch')
 class MemeCommand extends discord_akairo_1.Command {
     constructor() {
         super('say', {

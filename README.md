@@ -1,4 +1,4 @@
-# Max Bot v2.2.2
+# Max Bot v2.3.5
 <a href="https://becoditive.ml"><img align="right" src="https://cdn.discordapp.com/attachments/803548530932318209/807153318945619979/8d2d1c5e0ee9e5141f1fc51567dba572.jpg" width=27%></a>
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
@@ -11,11 +11,14 @@ This bot uses Javascript (JS) with the node module Discord.js
 - Node.js v12+
 
 ## What is New?
-- Better Code Structure
-- Removed Unwanted Files and Packages.
-- Added Action Commands
-- Basic Music Commands
-- Very Clean Code
+- added invite command
+- Better Error System
+- Added Coinflip Command
+- Better Folder Structure and Code Management
+- Banner Command Added
+- Compliment Command Added
+- Truth Command Added
+- Dare Command Added
 
 # Features
 **Fun Features**
@@ -33,7 +36,6 @@ This bot uses Javascript (JS) with the node module Discord.js
 **Action Features**
 
 **Music Features**
-
 
 ### [Commands](./Commands.md)
 
@@ -71,6 +73,8 @@ $ node .
 1. beCoditive Inc. (https://github.com/beCoditive)
 2. Shuriken (https://github.com/CyberShuri)
 
+**Contributors** :
+1. DevShaded (https://github.com/DevShaded)
 
 > Copyright © 2021 beCoditive
 

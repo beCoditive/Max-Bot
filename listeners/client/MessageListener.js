@@ -28,9 +28,29 @@ class MessageListener extends discord_akairo_1.Listener {
         }
         
         if(message.content.startsWith('hi')) message.channel.send(`Hello <@${message.author.id}> , What's Up`)
+         .then((mes) => {
+            setTimeout(() => {
+                mes.delete()
+            } , 5000 )
+        })
         if(message.content.startsWith('Hi')) message.channel.send(`Hello <@${message.author.id}> , What's Up`)
+         .then((mes) => {
+            setTimeout(() => {
+                mes.delete()
+            } , 5000 )
+        })
         if(message.content.startsWith('hI')) message.channel.send(`Hello <@${message.author.id}> , What's Up`)
+        .then((mes) => {
+            setTimeout(() => {
+                mes.delete()
+            } , 5000 )
+        })
         if(message.content.startsWith('HI')) message.channel.send(`Hello <@${message.author.id}> , What's Up`)
+         .then((mes) => {
+            setTimeout(() => {
+                mes.delete()
+            } , 5000 )
+        })
     
         if(message.content === `<@!808612664786944000>`) {
             message.channel.send('My Prefix is `$` Use `$help` for help.')

@@ -28,6 +28,9 @@ class ClearCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message, { messages }) {
+
+        if(!message.guild.me.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: I need administartor Premissions for this Command LOL !")
+
         if (!message.member.permissions.has('MANAGE_MESSAGES'))
             return message.channel.send('You need to have the `Manage Messages` permission to use this command.');
        

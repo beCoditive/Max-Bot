@@ -32,6 +32,10 @@
 - [x] Anti Joke Command
 - [x] ShowerThougth Command
 - [x] Doot Command
+- [x] CoinFlip COmmand
+- [x] Compliment Command
+- [x] Truth Command
+- [x] Dare Command
 
 **Image Commands**:
 - [x] Rip Command
@@ -54,6 +58,7 @@
 - [x] Ipad Command
 - [x] Triggered Command
 - [x] Hitler News Command
+- [x] Banner Command
 
 **Moderator Commands** :
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel

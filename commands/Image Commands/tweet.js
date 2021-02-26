@@ -36,7 +36,7 @@ class TweetCommand extends discord_akairo_1.Command {
   const canvas = Canvas.createCanvas(1024 ,500);
   const ctx = canvas.getContext('2d')
 
-  const background = await Canvas.loadImage('./Images/tweet.png')
+  const background = await Canvas.loadImage('./Assets/Images/tweet.png')
   ctx.drawImage(background, 0, 0 ,canvas.width , canvas.height);
 
   ctx.strokeStyle = '#740';
