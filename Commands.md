@@ -32,6 +32,7 @@
 - [x] Anti Joke Command
 - [x] ShowerThougth Command
 - [x] Doot Command
+- [ ] CoinFlip COmmand
 
 **Image Commands**:
 - [x] Rip Command
