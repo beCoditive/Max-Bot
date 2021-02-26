@@ -14,7 +14,7 @@ class WelcomeListener extends discord_akairo_1.Listener {
     }
     async exec(member) {
       
-Canvas.registerFont("./font/Welcome.ttf", { family: 'Comic Sans' })
+Canvas.registerFont("./Assets/font/Welcome.ttf", { family: 'Comic Sans' })
 const applyText = (canvas, text) => {
 	const ctx = canvas.getContext('2d');
 
