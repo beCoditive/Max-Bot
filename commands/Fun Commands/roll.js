@@ -8,14 +8,14 @@ const Discord = require('discord.js')
 
 class coinFlipCommand extends discord_akairo_1.Command {
     constructor() {
-        super('coinflip', {
-            aliases: ['coinflip', 'coin', 'flip', 'headsortails'],
+        super('roll', {
+            aliases: ['roll'],
             category: 'Fun Commands',
             description: {
-                content: 'Coinflip, return head or tails to the use',
-                usage: 'coinflip',
+                content: 'roll, return a number between 1-100 ',
+                usage: 'roll',
                 examples: [
-                    'coinflip'
+                    'roll'
                 ]
             },
             ratelimit: 3
@@ -23,16 +23,11 @@ class coinFlipCommand extends discord_akairo_1.Command {
     }
     async exec(message , args) {
 
-        let coinArray = [
-            'heads',
-            'tails'
-        ]
-
-        let answer = Math.floor(Math.random() * coinArray.length);
+        let randomNo = Math.floor(Math.random() * 100) + 1
 
         let Embed = new MessageEmbed()
-            .setColor('RANDOM')
-            .setDescription(`I flipped a coin and it landed on **${coinArray[answer]}**`)
+        .setColor('RANDOM')
+        .setDescription(`<@${message.author.id}> rolls a dice and the outcome is 🎲 ${randomNo} 🎲`)
         await message.channel.send(Embed)
     }
 }
