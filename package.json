@@ -1,6 +1,6 @@
 {
   "name": "max-bot",
-  "version": "2.3.5",
+  "version": "2.4.9",
   "main": "index.js",
   "scripts": {
     "start": "nodemon .index.js"
@@ -20,7 +20,6 @@
     "cron": "^1.8.2",
     "discord-akairo": "github:1Computer1/discord-akairo",
     "discord-image-generation": "^1.4.7",
-    "discord-memer": "file:discord-memer-1.0.0.tgz",
     "discord-xp": "^1.1.7",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
@@ -39,7 +38,7 @@
     "novelcovid": "^3.0.0",
     "prompt-sync": "^4.2.0",
     "quick-giphy": "^2.0.1",
-    "random-jokes-api": "^1.2.3",
+    "random-jokes-api": "^1.4.5",
     "request": "^2.88.2",
     "sequelize": "^6.5.0",
     "trending-github": "^2.0.7",

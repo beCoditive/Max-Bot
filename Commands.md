@@ -36,6 +36,9 @@
 - [x] Compliment Command
 - [x] Truth Command
 - [x] Dare Command
+- [x] Would You Rather Command
+- [x] RockPaperScissors Command
+- [x] Never Have I Ever Command
 
 **Image Commands**:
 - [x] Rip Command
@@ -59,6 +62,8 @@
 - [x] Triggered Command
 - [x] Hitler News Command
 - [x] Banner Command
+- [x] Bong Command
+- [x] Invert Command
 
 **Moderator Commands** :
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel
