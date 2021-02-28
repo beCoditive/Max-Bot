@@ -5,14 +5,14 @@ const Discord = require('discord.js')
 const fetch = require('node-fetch')
 class FacepalmCommand extends discord_akairo_1.Command {
     constructor() {
-        super('facepalm', {
-            aliases: ['facepalm'],
+        super('facepalmMeme', {
+            aliases: ['facepalmMemeMeme'],
             category: 'Fun Commands',
             description: {
-                content: 'Generate facepalm from public API',
-                usage: 'facepalm',
+                content: 'Generate facepalmMeme from public API',
+                usage: 'facepalmMeme',
                 examples: [
-                    'facepalm'
+                    'facepalmMeme'
                 ]
             },
             ratelimit: 10
