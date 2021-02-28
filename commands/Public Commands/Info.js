@@ -24,6 +24,7 @@ class InfoCommand extends discord_akairo_1.Command {
           .setColor('RANDOM')
           .setThumbnail('https://cdn.discordapp.com/attachments/803548530932318209/807894212388847636/post-1.png')
           .setDescription("Max Bot is Open Source Bot made by beCoditive. Join beCoditive' sserver to get this bot.")
+          .addField('Get this Bot for your server !!' , 'https:github.com/beCoditive/Max-Bot')
           .addField('This Bot Was Made by:' , 'beCoditive Inc. - https://github.com/beCoditive\nShuriken - https://github.com/CyberShuri')
           .addField(`Version` , `${config_1.version}`)
           .addField('Features:' , '`Fun Commands` , `Moderation Commands` , `Search Commands` , `Public Commands` , `Image Commands`')

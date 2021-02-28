@@ -2,8 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
-
-const Dig = require("discord-memer")
 class ripCommand extends discord_akairo_1.Command {
     constructor() {
         super('delete', {

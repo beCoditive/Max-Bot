@@ -64,6 +64,24 @@
 - [x] Banner Command
 - [x] Bong Command
 - [x] Invert Command
+- [x] Blur Command
+- [x] GreyScale Command
+- [x] Sepia Command
+- [x] Blink Command
+- [x] Affect Command
+- [x] Ad Command
+- [x] Beautiful Command
+- [x] Bobross Command
+- [x] Facepalm Command
+- [x] Karaba Command
+- [x] Poutine Command
+- [x] Stonk Command
+- [x] Die Command
+- [x] Non Stonk Command
+- [x] Mms Command
+- [x] Confused Stonk Command
+- [x] Thomas Command
+- [x] Tatoo Command
 
 **Moderator Commands** :
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel
@@ -82,6 +100,7 @@
 - [x] Covid Command - Check the Number of Cases of Covid-19
 - [x] Info Command
 - [x] Invite Checker Command
+- [x] ServerInfo Command
 
 **Search Commands** :
 - [x] BotJs Command - It allows to check docs of the discord.js
