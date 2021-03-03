@@ -16,8 +16,18 @@ class PingCommand extends discord_akairo_1.Command {
             ratelimit: 10
         });
     }
-    exec(message) {
-        return message.util.send(`Pong! \`${this.client.ws.ping}\`ms`);
+    // Trying out a new embed method
+    exec(message, args) {
+        return message.util.send({
+            embed: {
+                color: 'RANDOM',
+                description: `🏓 Pong - ${this.client.ws.ping} milliseconds.`,
+                timestamp: new Date(),
+                footer: {
+                    text: 'Max Bot',
+                },
+            }
+        });
     }
 }
 exports.default = PingCommand;
