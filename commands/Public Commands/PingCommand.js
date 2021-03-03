@@ -20,7 +20,7 @@ class PingCommand extends discord_akairo_1.Command {
     exec(message, args) {
         return message.util.send({
             embed: {
-                color: '#14b1f5',
+                color: 'RANDOM',
                 description: `🏓 Pong - ${this.client.ws.ping} milliseconds.`,
                 timestamp: new Date(),
                 footer: {
