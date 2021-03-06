@@ -29,6 +29,7 @@
     "http": "0.0.1-security",
     "images-scraper": "^6.0.0",
     "instagram-web-api": "^2.2.2",
+    "moment": "^2.29.1",
     "mongoose": "^5.11.16",
     "ms": "^2.1.3",
     "mysql": "^2.18.1",
