@@ -12,3 +12,4 @@ exports.welcomeImage = 'Your_Welocme_Background_Image_Link'
 exports.owners = ['Your_ID'];
 exports.version = 'v2.4.9';
 exports.dbName = 'database';
+exports.WEATHER_API_KEY = 'YOUR_WEATHER_API_KEY'
