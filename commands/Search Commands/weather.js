@@ -18,7 +18,7 @@ class ballCommand extends discord_akairo_1.Command {
             aliases: ['weather', 'forecast'],
             category: 'Search Commands',
             description: {
-                content: 'Ask your question and check your fortune.',
+                content: 'Return current weather at specific location to user',
                 usage: '[City Name]',
                 examples: [
                     'weather Oslo',
