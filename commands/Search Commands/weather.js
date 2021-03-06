@@ -42,7 +42,7 @@ class ballCommand extends discord_akairo_1.Command {
             if (error) throw new Error(error);
 
             let body = JSON.parse(response.body)
-            console.log(body)
+
             if (body.message) {
                 return message.channel.send({
                     embed: {
