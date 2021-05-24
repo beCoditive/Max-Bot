@@ -12,6 +12,7 @@
     "@octokit/rest": "^18.1.0",
     "@types/node": "^14.14.12",
     "axios": "^0.21.1",
+    "becoditive": "0.0.3",
     "canvas": "^2.6.1",
     "cheerio": "^1.0.0-rc.5",
     "chucknorris-io": "^1.0.5",
